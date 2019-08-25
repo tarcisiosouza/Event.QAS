@@ -18,7 +18,8 @@ public class Word2VecTest {
 		
 		Word2VecManager word2Vec = new Word2VecManager ();
 		
-		word2Vec.loadModel();
+		word2Vec.train("/home/souza/git/rdf2walks/output/walkslcquad.txt.gz", "model.txt");
+	//	word2Vec.loadModel();
 		
 		Collection<String> c = new ArrayList<String>();
 		
