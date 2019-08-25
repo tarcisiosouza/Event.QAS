@@ -16,7 +16,7 @@ public class Word2VecTest {
 	@Test
 	public void test() throws FileNotFoundException, IOException {
 		
-	/*	Word2VecManager word2Vec = new Word2VecManager ();
+		Word2VecManager word2Vec = new Word2VecManager ();
 		
 		word2Vec.loadModel();
 		
@@ -28,7 +28,7 @@ public class Word2VecTest {
 		{
 			System.out.print(c.toString());
 		}
-	*/	
+		
 	}
 
 }
