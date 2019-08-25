@@ -33,7 +33,7 @@ public class Word2VecManager {
 	public Word2VecManager () throws FileNotFoundException, IOException
 	{
 		
-		try (InputStream input = new FileInputStream ("/Users/tarcisio/workspace-oxygen/Event.QAS/src/main/resources/application.properties"))
+		try (InputStream input = new FileInputStream ("/home/souza/Event.QAS/src/main/resources/application.properties"))
 		{
 			Properties p =  new Properties ();
 			
@@ -97,6 +97,7 @@ public class Word2VecManager {
 	{
 		Word2VecManager w = new Word2VecManager ();
 		
-		w.train(args[0], args[1]);
+		//w.train(args[0], args[1]);
+		//w.loadModel();
 	}
 }
